@@ -1,7 +1,7 @@
 
 const Navbar = ({ isDarkModeOn, handleReset, handleThemeChange}: {isDarkModeOn: boolean, handleReset: ()=>void, handleThemeChange: ()=>void}) => {
   return (
-    <div className="flex items-center justify-between p-8">
+    <div className="flex items-center justify-between p-8 text-xl">
       <button onClick={handleReset} className="p-1 hover:cursor-pointer hover:scale-105 transition-all duration-300 ease-out">
         Reset
       </button>

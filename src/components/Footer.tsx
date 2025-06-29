@@ -75,7 +75,7 @@ const Footer = ({props}: FooterProps ) => {
   }
 
   return (
-    <div className="flex justify-between p-8 items-center">
+    <div className="flex justify-between p-8 items-center text-xl">
 
       <div className="gridDimension flex flex-col gap-3">
         <div className="gHeight flex gap-2 items-center">
