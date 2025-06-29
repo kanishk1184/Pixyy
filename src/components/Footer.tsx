@@ -90,7 +90,7 @@ const Footer = ({props}: FooterProps ) => {
 
       <input type="color" value={color} onChange={(e)=>setColor(e.target.value)}/>
 
-      <div className="piexelDimension flex flex-col gap-3 text-right">
+      <div className="piexelDimension flex flex-col gap-3 text-right items-end">
         <div className="pHeight flex gap-2 items-center">
           <input type="number" name="pHeight" id="pHeight" className={`text-right px-2 py-1 w-20 hover:outline-1 focus:outline-2 rounded-lg  ${isDarkModeOn? "lightOutline": "darkOutline"}`} min={1} max={100} value={hSize} onChange={(e) => numInputsHandler("pHeight", e)}/>
           <label htmlFor="pHeight">:Pixel Height</label>
