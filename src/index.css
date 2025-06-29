@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --lightColor: #FFF2E0;
+  --darkColor: #2c2c2c;
+}
+
+*{
+  font-family: "Edu QLD Hand", cursive;
+}
+
+.dark{
+  background-color: var(--darkColor);
+  color: var(--lightColor);
+  border-color: var(--lightColor);
+}
+
+.light{
+  background-color: var(--lightColor);
+  color: var(--darkColor);
+  border-color: var(--darkColor);
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.darkOutline:focus, .darkOutline:hover{
+  outline-color: var(--darkColor);
+}
+
+.lightOutline:focus, .lightOutline:hover{
+  outline-color: var(--lightColor);
+}
+
+input[type=color] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+input[type=color]::-webkit-color-swatch {
+  border: none;
+  border-radius: 10px;
+}input[type=color]::-moz-color-swatch {
+  border: none;
+  border-radius: 10px;
+}
